@@ -1,0 +1,22 @@
+SENDING:M503
+echo:Steps per unit:
+echo:  M92 X100.00 Y100.00 Z400.00 E183.49
+echo:Maximum feedrates (mm/s):
+echo:  M203 X500.00 Y500.00 Z12.00 E120.00
+echo:Maximum Acceleration (mm/s2):
+echo:  M201 X9000 Y9000 Z500 E10000
+echo:Acceleration: S=acceleration, T=retract acceleration
+echo:  M204 S1500.00 T1500.00
+echo:Advanced variables: S=Min feedrate (mm/s), T=Min travel feedrate (mm/s), B=minimum segment time (ms), X=maximum XY jerk (mm/s),  Z=maximum Z jerk (mm/s),  E=maximum E jerk (mm/s)
+echo:  M205 S0.00 T0.00 B20000 X10.00 Y10.00 Z0.20 E2.50
+echo:Home offset (mm):
+echo:  M206 X0.00 Y0.00 Z0.00
+echo:PID settings:
+echo:   M301 P40.93 I4.88 D86.08
+echo:Retract: S=Length (mm) F:Speed (mm/m) Z: ZLift (mm)
+echo:   M207 S3.00 F2700.00 Z0.00
+echo:Recover: S=Extra length (mm) F:Speed (mm/m)
+echo:   M208 S0.00 F480.00
+echo:Auto-Retract: S=0 to disable, 1 to interpret extrude-only moves as retracts or recoveries
+echo:   M209 S0
+echo:Filament settings: Disabled
