@@ -461,11 +461,7 @@ const bool Z_MAX_ENDSTOP_INVERTING = true; // set to true to invert the logic of
 //define this to enable EEPROM support
 #define EEPROM_SETTINGS
 //to disable EEPROM Serial responses and decrease program space by ~1700 byte: comment this out:
-<<<<<<< HEAD
-// please keep turned on if you can. (oopsies i added extra comments for no reason)
-=======
 // please keep turned on if you can.
->>>>>>> master
 #define EEPROM_CHITCHAT
 
 // Host Keepalive
