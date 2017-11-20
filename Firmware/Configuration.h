@@ -160,7 +160,7 @@
 //    #define  DEFAULT_Kp 7.0
 //    #define  DEFAULT_Ki 0.1
 //    #define  DEFAULT_Kd 12
-
+E
 // Mendel Parts V9 on 12V
 //    #define  DEFAULT_Kp 63.0
 //    #define  DEFAULT_Ki 2.25
@@ -462,7 +462,7 @@ const bool Z_MAX_ENDSTOP_INVERTING = true; // set to true to invert the logic of
 #define EEPROM_SETTINGS
 //to disable EEPROM Serial responses and decrease program space by ~1700 byte: comment this out:
 // please keep turned on if you can.
-//#define EEPROM_CHITCHAT
+#define EEPROM_CHITCHAT
 
 // Host Keepalive
 //
