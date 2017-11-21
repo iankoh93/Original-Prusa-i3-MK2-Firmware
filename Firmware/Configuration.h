@@ -160,7 +160,6 @@
 //    #define  DEFAULT_Kp 7.0
 //    #define  DEFAULT_Ki 0.1
 //    #define  DEFAULT_Kd 12
-E
 // Mendel Parts V9 on 12V
 //    #define  DEFAULT_Kp 63.0
 //    #define  DEFAULT_Ki 2.25
