@@ -13,7 +13,7 @@ GENERAL SETTINGS
 #define DEVELOPER
 
 // Printer name
-#define CUSTOM_MENDEL_NAME "UBC Rapid"
+#define CUSTOM_MENDEL_NAME "UBC Rapid - Ian"
 
 // Electronics
 #define MOTHERBOARD BOARD_RAMBO_MINI_1_3
@@ -124,10 +124,6 @@ EXTRUDER SETTINGS
 #define EXTRUDER_AUTO_FAN_SPEED   255  // == full speed
 
 
-
-
-
-
 #ifdef SNMM
 //#define BOWDEN_LENGTH	408
 #define BOWDEN_LENGTH 433 //default total length for filament fast loading part; max length for extrusion is 465 mm!; this length can be adjusted in service menu
@@ -153,8 +149,8 @@ CHANGE FILAMENT SETTINGS
 #define FILAMENTCHANGE_FIRSTRETRACT -2
 #define FILAMENTCHANGE_FINALRETRACT -80
 
-#define FILAMENTCHANGE_FIRSTFEED 70
-#define FILAMENTCHANGE_FINALFEED 50
+#define FILAMENTCHANGE_FIRSTFEED 100
+#define FILAMENTCHANGE_FINALFEED 60
 #define FILAMENTCHANGE_RECFEED 5
 
 #define FILAMENTCHANGE_XYFEED 50
